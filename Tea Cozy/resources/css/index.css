@@ -1,0 +1,184 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+
+
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  padding: 20px;
+  display: flex;
+  color: seashell;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  flex-grow: 1;
+  align-items: center;
+}
+
+a {
+  color: seashell;
+}
+
+.nav span {
+  padding: 20px 10px;
+  display: inline-block;
+  padding-right: 50px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: inherit;
+  text-align: right;
+  flex-grow: 1;
+  text-decoration: underline;
+}
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  }
+
+#mission  {
+height: 700px;
+width: 1200px;
+margin: auto;
+
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+
+}
+
+#mission .content {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+#tea {
+  background-color: black;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.items img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  display: block;
+
+
+}
+
+#tea span {
+  margin-top: 10px;
+
+  }
+
+#locations {
+  padding-top: 50px;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.location1 {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+  opacity: 1.0;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  align-items: center;
+
+}
+
+  .location2 {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    opacity: 1.0;
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+    .location3 {
+      width: 300px;
+      height: 300px;
+      align-items: center;
+      background-color: black;
+      text-align: center;
+      opacity: 1.0;
+      margin: 5px 20px;
+      display: flex;
+      flex-direction: column;
+
+}
+
+.h2 {
+  text-align: center;
+}
+
+
+.contact{
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.ending{
+  height: 200px;
+  width: 100%;
+}
